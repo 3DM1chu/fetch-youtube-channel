@@ -6,6 +6,7 @@ import re
 import time
 import asyncio
 import aiohttp
+import sys
 
 
 class YoutubeScraper:
@@ -160,7 +161,7 @@ class ChannelVideosScraper:
 
         except Exception as e:
             print("Unable to get url {} due to {}. RETRYING...".format(link_to_video, e.__class__))
-            with open("/var/www/html/selenium_bot/channels_failed/" + video["channelTag"] + ".txt", "a") as f:
+            with open("channels_failed/" + video["channelTag"] + ".txt", "a") as f:
                 f.write('Unable to get url {} due to {}.\n'.format(link_to_video, e.__class__))
                 f.write(resp)
                 f.write('\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n')
@@ -267,13 +268,20 @@ class VideoCommentsScraper:
             print("Ok, scraped all..")
 
 
-video_id = "hnczfA8nfBs"
-min_length = 75
-
-start_time = time.time()
-main_scraper = YoutubeScraper("davidbombal", 10000)
+channel_tag = sys.argv[1]
+print("Checking " + channel_tag)
+if channel_tag == "":
+    print("Correct usage: __main__.py channel_tag")
+    exit()
+main_scraper = YoutubeScraper(channel_tag, 10000)
 videosScraper = ChannelVideosScraper(scraper=main_scraper)
 asyncio.run(videosScraper.scrapeAndSaveResults())
+
+exit()
+
+start_time = time.time()
+video_id = "hnczfA8nfBs"
+min_length = 75
 comments_scraper = VideoCommentsScraper(main_scraper, video_id)  #
 comments_scraper.firstScrape()
 comments_scraper.scrapeDeeper()

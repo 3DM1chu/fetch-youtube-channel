@@ -1,0 +1,86 @@
+[
+  {
+    "link": "watch?v=xWoQ-E8n4B0",
+    "title": "DNS Remote Code Execution: Finding the Vulnerability \ud83d\udc7e (Part 1)",
+    "tags": "hacking, pwn2own, exploit, dns, hacker, vulnerability research, ghidra, ida, reverse engineering",
+    "scraped_at": 1684585993.1285024,
+    "genre": "Science",
+    "views": "198539",
+    "desc": "Learn tricks and techniques like these, with us, on our embedded device hacking training! \\\\nhttps://flashback.sh/training\\\\n\\\\nIn 2019 and 2020, we DOMINATED the router Wide Area Network or WAN category in the Pwn2Own hacker competition. In this category, hackers attack network devices with previously unknown vulnerabilities, from external networks such as the Internet. \\\\n\\\\nUnfortunately, by 2021 our competitors reversed engineered our techniques, and the game was up. \\\\n\\\\nToday, we are starting a video series where we will show you our tips, tricks and techniques to find and exploit WAN vulnerabilities in network devices. And we\\'re starting with a beautiful DNS exploit that got us $20,000 in prizes. \\\\n\\\\nLet\\'s get ready to PWN!\\\\n\\\\nIn this video, we will tell you the story of how we found CVE-2020-10881 in the Pwn2Own Tokyo 2019 hacking competition and present our Game Plan for exploiting it :-)\\\\n\\\\n00:00 - Intro\\\\n00:50 - WAN vs LAN\\\\n03:12 - Target Introduction and Recon\\\\n05:23 - Finding an Open Port and Fuzzing It\\\\n07:48 - Quick Look in Ghidra for Crash Investigation\\\\n10:38 - What is conn-indicator Doing?\\\\n12:30 - DNS Protocol\\\\n17:50 - A Deeper Look in Ghidra\\\\n20:33 - DNS Packet Parsing and the Vulnerability\\\\n24:51 - Radek\\'s Evil Game Plan\\\\n28:03 - Our Training\\\\n\\\\nDid you enjoy this video? Then follow us on Twitter, and subscribe to our channel for more awesome hacking videos.\\\\n\\\\n~ Flashback Team\\\\nhttps://flashback.sh\\\\nhttps://twitter.com/FlashbackPwn\\\\n\\\\nBackground track: \\\\\"",
+    "lengthSeconds": "1770",
+    "uploadDate": "2023-03-16",
+    "thumbnail_url": "https://i.ytimg.com/vi/xWoQ"
+  },
+  {
+    "link": "watch?v=nruUuDalNR0",
+    "title": "Extracting Firmware from Embedded Devices (SPI NOR Flash) \u26a1",
+    "tags": "security, vulnerability research, SPI, NOR Flash, Flash, Firmware extraction, Firmware dumping, flashrom, hydrabus, Pwn2Own, embedded devices",
+    "scraped_at": 1684585993.2995002,
+    "genre": "Science",
+    "views": "409800",
+    "desc": "Learn tricks and techniques like these, with us, on our embedded device hacking training! \\\\nhttps://flashback.sh/training\\\\n\\\\nOne of the first things you have to do when hacking and breaking embedded device security is to obtain the firmware. If you\\'re lucky, you can download it from the manufacturer\\'s website or, if you have a shell,  you can just copy it over to your computer.\\\\n\\\\nBut what if none of these options are available?\\\\n\\\\nIn this video, we will show you how you can connect directly to a NOR flash chip with the SPI protocol to dump the firmware and find your vulns, even if off the shelf tools don\\'t work!\\\\n\\\\n00:00 Intro\\\\n00:40 Technical Introduction\\\\n01:55 Flash Memory Types\\\\n03:51 NOR Flash\\\\n06:25 SPI Protocol\\\\n07:55 Our Training\\\\n09:27 Logic Analyzer\\\\n12:04 How SPI Works\\\\n13:53 Firmware Extraction\\\\n\\\\nDid you enjoy this video? Then follow us on Twitter, and subscribe to our channel for more awesome hacking videos.\\\\n\\\\n~ Flashback Team\\\\nhttps://flashback.sh\\\\nhttps://twitter.com/FlashbackPwn\"",
+    "lengthSeconds": "1120",
+    "uploadDate": "2022-09-09",
+    "thumbnail_url": "https://i.ytimg.com/vi/nruUuDalNR0/hqdefault.jpg"
+  },
+  {
+    "link": "watch?v=O1uK_b1Tmts",
+    "title": "Rice for Pretzels: Attacking a Cisco VPN Gateway 9000 km Away \ud83c\udf0d",
+    "tags": "RV340, SSL VPN",
+    "scraped_at": 1684585993.4195,
+    "genre": "Science",
+    "views": "11435",
+    "desc": "Learn tricks and techniques like these, with us, on our embedded device hacking training! \\\\nhttps://flashback.sh/training\\\\n\\\\nA short teaser showing the exploit we used in Pwn2Own Austin 2021, where we hacked the Cisco RV340 router by exploiting a vulnerability over the Wide Area Network (WAN) interface. \\\\nBut not all WAN vulnerabilities are equal... and this one is exploitable over the Internet, from Thailand to Munich, over 9000 km away!\\\\n\\\\nThe vulnerabilities exploited in this video (CVE-2022-20699 / ZDI-22-414 and friends) were revealed in our talk at OffensiveCon 2022, \\\\\"",
+    "lengthSeconds": "230",
+    "uploadDate": "2021-12-16",
+    "thumbnail_url": "https://i.ytimg.com/vi/O1uK_b1Tmts/maxresdefault.jpg"
+  },
+  {
+    "link": "watch?v=qhwMsDCw5sE",
+    "title": "Rooting an Arlo Q Plus Camera (SSH \ud83d\udd19\ud83d\udeaa?!)",
+    "tags": "IoT, Arlo, Arlo Q Plus, backdoor, hacking, ZDI, Pwn2Own, camera, embedded, security",
+    "scraped_at": 1684585992.8794997,
+    "genre": "Science",
+    "views": "11698",
+    "desc": "Learn tricks and techniques like these, with us, on our embedded device hacking training! \\\\nhttps://flashback.sh/training\\\\n\\\\nIn this short video we show you how we discovered and used a backdoor in Arlo Q Plus to gain a root access to a device. \\\\n\\\\n1. We identified the UART console\\\\n2. Dumped the NAND firmware\\\\n3. Found and cracked hardcoded SSH root account\\\\n4. Discovered a special operation mode to enable SSH\\\\n\\\\nThe vulnerability was disclosed to the vendor via ZDI (ZDI-21-683) and tracked under CVE-2021-31505.\\\\nAdvisory: https://www.zerodayinitiative.com/advisories/ZDI-21-683/\\\\nFixed version: VMC3040S: 1.9.0.8_199_3707910 (according to Arlo, we didn\\'t test the fix)\\\\n\\\\nDid you enjoy this video? Then follow us on Twitter, and subscribe to our channel for more awesome hacking videos.\\\\n\\\\n~ Flashback Team\\\\nhttps://flashback.sh\\\\nhttps://twitter.com/FlashbackPwn\"",
+    "lengthSeconds": "192",
+    "uploadDate": "2021-07-21",
+    "thumbnail_url": "https://i.ytimg.com/vi/qhwMsDCw5sE/maxresdefault.jpg"
+  },
+  {
+    "link": "watch?v=NZmZid-1_jU",
+    "title": "Pwning Cisco ISE: From Cross Site Scripting to Root Shell!",
+    "tags": "cisco, IoT hacking, XSS, remote code execution, RCE, cisco router hacking, exploit, root shell, cisco root",
+    "scraped_at": 1684585993.0384994,
+    "genre": "Science",
+    "views": "8362",
+    "desc": "Learn tricks and techniques like these, with us, on our embedded device hacking training! \\\\nhttps://flashback.sh/training\\\\n\\\\nIn this short video we show you how dangerous a cross site scripting (XSS) vulnerability can be.\\\\nBack in 2018, Pedro found 3 vulnerabilities that allow an unauthenticated attacker to achieve remote code execution as root in a Cisco Identity Services Engine device.\\\\n\\\\n1- Stored cross site scripting (exploitable by an unauthenticated attacker)\\\\n2- Unsafe Java deserialization (exploitable by an authenticated user)\\\\n3- Privilege escalation to root due to incorrect file permissions\\\\n\\\\nWe start by sending an unauthenticated HTTP request to store the XSS payload on the device. Then, we send a phishing email to the device administrator. Once the device administrator clicks on the email link, he will be sent to the device page that contains our XSS payload. That payload sends a malicious request to a REST endpoint in the device that performs the Java deserialization, and we then get our shell running as the web server user. Finally we abuse the incorrect file permissions to get root!\\\\n\\\\nFor an in depth look on each vulnerability and how the exploit works under the hood, please check the advisory at https://github.com/pedrib/PoC/blob/master/advisories/Cisco/cisco_ise_rce.md\\\\n\\\\nCVE-2018-15440: Stored Cross-site Scripting\\\\nCVE-2017-5641: Unsafe Flex AMF Java Object Deserialization\\\\nSSD-3778: Privilege Escalation via Incorrect sudo and File Permission\\\\n\\\\nDid you enjoy this video? Then follow us on Twitter, and subscribe to our channel for more awesome hacking videos.\\\\n\\\\n~ Flashback Team\\\\nhttps://flashback.sh\\\\nhttps://twitter.com/FlashbackPwn\"",
+    "lengthSeconds": "149",
+    "uploadDate": "2021-06-30",
+    "thumbnail_url": "https://i.ytimg.com/vi/NZmZid"
+  },
+  {
+    "link": "watch?v=vsg9YgvGBec",
+    "title": "Exploiting (and Patching) a Zero Day RCE Vulnerability in a Western Digital NAS",
+    "tags": "zeroday, 0day, exploit, vulnerability, pwn2own, westerndigital, nas, hacking, PR4100",
+    "scraped_at": 1684585993.2215009,
+    "genre": "Science",
+    "views": "34500",
+    "desc": "Learn tricks and techniques like these, with us, on our embedded device hacking training! \\\\nhttps://flashback.sh/training\\\\n\\\\nIn this video we show you how we found, exploited and patched a chain of zero day vulnerabilities in a Western Digital (WD) Network Attached Storage (NAS) device. This chain allows an unauthenticated attacker to execute code as root and install a permanent backdoor on the NAS. \\\\n\\\\n0:00 Intro\\\\n0:41 Why Drop A Zero Day?\\\\n2:51 Overview Of WD PR4100 NAS\\\\n4:01 OS3 vs OS5\\\\n5:18 Recon And Password Cracking\\\\n7:02 API Introduction\\\\n8:45 Accessing Auth API (Vulnerability #1)\\\\n10:07 Firmware Update (Vulnerability #2)\\\\n15:48 Exploit Walkthrough \\\\n18:32 Exploit Execution\\\\n19:56 Patching Vulnerability #2\\\\n22:41 Downgrading OS5 To OS3\\\\n24:07 One Week Update\\\\n\\\\nThe vulnerabilities affect most of the WD NAS line-up and their OS3 firmware versions and are unpatched as of 2021/02/25. The new OS5 firmware is not vulnerable. OS3 is in a limbo, it\\'s not clear whether it is supported or not by WD, but WD\\'s official response to a security advisory in November 2020 seems to indicate that it\\'s out of support.\\\\n\\\\nPlease keep safe - do not expose your NAS to the Internet. If your device supports OS5, upgrade to that, otherwise you can use our patch to fix it, which needs to be done at every reboot.\\\\n\\\\nOur patch can be found at:\\\\nhttps://github.com/pedrib/PoC/blob/master/advisories/Pwn2Own/Tokyo_2020/weekend_destroyer/weekend_destroyer_patch.sh\\\\nhttps://github.com/rdomanski/Exploits_and_Advisories/blob/master/advisories/Pwn2Own/Tokyo2020/weekend_destroyer_patch.sh\\\\n\\\\nThe full advisory detailing the vulnerabilities can be found here: https://www.flashback.sh/blog/weekend-destroyer-wd-pr4100-rce\\\\n\\\\nCVE-2021-36224: Hard-coded User Credentials\\\\nCVE-2021-36225: Firmware Upgrade Can be Initiated by Low Privilege User\\\\nCVE-2021-36226: No Cryptographic Verification of Firmware Upgrades\\\\n\\\\nDid you enjoy this video? Then follow us on Twitter, and subscribe to our channel for more awesome hacking videos.\\\\n\\\\n~ Flashback Team\\\\nhttps://flashback.sh\\\\nhttps://twitter.com/FlashbackPwn\"",
+    "lengthSeconds": "1493",
+    "uploadDate": "2021-02-25",
+    "thumbnail_url": "https://i.ytimg.com/vi/vsg9YgvGBec/maxresdefault.jpg"
+  },
+  {
+    "link": "watch?v=01mw0oTHwxg",
+    "title": "Hacker's Guide to UART Root Shells",
+    "tags": "UART, UART Protocol, Saleae, IoT, UART hacking, root shell, hardware hacking, hacking, router hacking, IoT exploit, hardware reversing, intro to hardware hacking, serial console, UART introduction, UART intro, serial communication, understanding uart, Universal asynchronous receiver",
+    "scraped_at": 1684585992.9694993,
+    "genre": "Science",
+    "views": "385927",
+    "desc": "Learn tricks and techniques like these, with us, on our embedded device hacking training! \\\\nhttps://flashback.sh/training\\\\n\\\\nThe UART Protocol and Interface is crucial for hacking IoT devices. We explain how to quickly identify a UART interface and connect to it to get a root shell, as well as a trick on how to re-enable a UART connector that has been disabled by the manufacturer.\\\\n\\\\n00:00 Intro\\\\n01:00 What is UART?\\\\n04:05 Identifying UART\\\\n07:56 Connecting to UART\\\\n08:52 The UART Protocol\\\\n14:42 Re-enabling broken UART\\\\n\\\\nDid you enjoy this video? Then follow us on Twitter, and subscribe to our channel for more awesome hacking videos.\\\\n\\\\n~ Flashback Team\\\\nhttps://flashback.sh\\\\nhttps://twitter.com/FlashbackPwn\"",
+    "lengthSeconds": "1060",
+    "uploadDate": "2021-01-21",
+    "thumbnail_url": "https://i.ytimg.com/vi/01mw0oTHwxg/maxresdefault.jpg"
+  }
+]
