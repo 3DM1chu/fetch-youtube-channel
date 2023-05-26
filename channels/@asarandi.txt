@@ -1,0 +1,98 @@
+[
+  {
+    "link": "watch?v=shnglKByjwE",
+    "title": "automatic game play - freecell (mobilityware) on ios - python bot",
+    "tags": "film, udost",
+    "scraped_at": 1685095052.5964584,
+    "genre": "Education",
+    "views": "2670",
+    "desc": "this is a re-upload of a video from an old account\\\\n\\\\noriginal title: iPhone Freecell Bot\\\\noriginal upload date: Jan 11, 2017\\\\noriginal description:\\\\n\\\\nfreecell app by mobilityware (iphone version):\\\\nhttp://www.mobilityware.com/solitaire...\\\\n\\\\nthis program was written in python:\\\\nhttps://www.python.org/\\\\n\\\\nit captures an iphone screenshot using idevicescreenshot:\\\\nhttp://www.libimobiledevice.org/\\\\nin this video the ssh connection is made over usb using tcprelay.py\\\\n\\\\nit uses several python libraries for image processing:\\\\nhttp://pythonware.com/products/pil/\\\\nhttp://scikit-image.org/\\\\nhttp://opencv.org/\\\\nhttp://www.numpy.org/\\\\n\\\\nto solve the freecell puzzle the program uses \\'fc-solve\\' by Shlomi Fish:\\\\nhttp://fc-solve.shlomifish.org/\\\\n\\\\nthe program uses the paramiko python library to send commands over ssh to the iphone:\\\\nhttp://www.paramiko.org/\\\\n\\\\nto tap/swipe the iphone screen the program uses iolate\\'s SimulateTouch:\\\\nhttps://github.com/iolate/SimulateTouch\"",
+    "lengthSeconds": "235",
+    "uploadDate": "2023-01-31",
+    "thumbnail_url": "https://i.ytimg.com/vi/shnglKByjwE/maxresdefault.jpg"
+  },
+  {
+    "link": "watch?v=skDG_lgjHSU",
+    "title": "automatic game play - sudoku 2 (finger arts) on ios - python bot",
+    "tags": "film, udost",
+    "scraped_at": 1685095052.5374575,
+    "genre": "Education",
+    "views": "855",
+    "desc": "this is a re-upload of a video from an old account\\\\n\\\\noriginal title: iPhone Sudoku Bot\\\\noriginal upload date: Jan 13, 2017\\\\noriginal description:\\\\n\\\\nsudoku2 app by finger arts running on iphone:\\\\nhttp://finger-arts.com/sudoku\\\\n\\\\nthis program was written in python:\\\\nhttps://www.python.org/\\\\n\\\\nit captures an iphone screenshot using idevicescreenshot:\\\\nhttp://www.libimobiledevice.org/\\\\nssh connection over usb via tcprelay.py\\\\n\\\\nit uses several python libraries for image processing:\\\\nhttp://pythonware.com/products/pil/\\\\nhttp://scikit-image.org/\\\\nhttp://opencv.org/\\\\nhttp://www.numpy.org/\\\\n\\\\nto solve the sudoku puzzle the program uses Peter Norvig\\'s sudoku solver:\\\\nhttp://www.norvig.com/sudoku.html\\\\n\\\\nthe program uses the paramiko python library to send commands to the iphone over ssh:\\\\nhttp://www.paramiko.org/\\\\n\\\\nto tap/swipe the iphone screen the program uses iolate\\'s SimulateTouch:\\\\nhttps://github.com/iolate/SimulateTouch\\\\n\\\\napp discussion:\\\\nhttp://sudokushare.blogspot.com/\\\\nhttps://www.facebook.com/fingerarts/\"",
+    "lengthSeconds": "233",
+    "uploadDate": "2023-01-31",
+    "thumbnail_url": "https://i.ytimg.com/vi/skDG_lgjHSU/maxresdefault.jpg"
+  },
+  {
+    "link": "watch?v=cLTaAN7oGOc",
+    "title": "gameboy multiplayer over internet",
+    "tags": "gameboy, link",
+    "scraped_at": 1685095052.3044634,
+    "genre": "Education",
+    "views": "1666",
+    "desc": "repo: https://github.com/asarandi/gbmu/tree/master/webrtc\\\\n\\\\nthis a webrtc server (golang, pion) running 2 gameboy emulator (c, cgo) instances in lockstep.\\\\nthe instances are able to talk to each other via link-cable, allowing for 2-player games.\\\\nencoded audio/video (gstreamer, opus/h264) is broadcast to all viewers of the page.\"",
+    "lengthSeconds": "260",
+    "uploadDate": "2021-12-05",
+    "thumbnail_url": "https://i.ytimg.com/vi/cLTaAN7oGOc/maxresdefault.jpg"
+  },
+  {
+    "link": "watch?v=POvHRKMyilM",
+    "title": "automatic game play - wordscapes (peoplefun) on android - python bot",
+    "tags": "film, udost",
+    "scraped_at": 1685095052.4794579,
+    "genre": "Education",
+    "views": "6388",
+    "desc": "software used:\\\\n- scrcpy, sndcpy\\\\n- pyautogui, opencv, pytesseract\\\\n\\\\nrecorded with simplescreenrecorder\\\\n\\\\nrepo:\\\\nhttps://github.com/asarandi/wordscapes-bot\"",
+    "lengthSeconds": "170",
+    "uploadDate": "2021-01-08",
+    "thumbnail_url": "https://i.ytimg.com/vi/POvHRKMyilM/maxresdefault.jpg"
+  },
+  {
+    "link": "watch?v=wMgFaN_rFN0",
+    "title": "512 bytes only MBR \"demo\" with sound and animation",
+    "tags": "mbr, master boot record, boot sector, 16bit demo, 16bit asm, mario walk cycle",
+    "scraped_at": 1685095052.4224584,
+    "genre": "Education",
+    "views": "1026",
+    "desc": "small demo i wrote, written onto usb drive\\'s boot sector;\\\\nthe challenge was to make the images, sound and code all fit into 512 bytes of the mbr\\\\nhttps://github.com/asarandi/mbr-demo\"",
+    "lengthSeconds": "46",
+    "uploadDate": "2019-07-19",
+    "thumbnail_url": "https://i.ytimg.com/vi/wMgFaN_rFN0/maxresdefault.jpg"
+  },
+  {
+    "link": "watch?v=aCnkIUMxXAk",
+    "title": "famine: cross-platform Linux/macOS computer virus",
+    "tags": "elf64, macho64, binary",
+    "scraped_at": 1685095052.1744335,
+    "genre": "Education",
+    "views": "910",
+    "desc": "short video demo of \\\\\"",
+    "lengthSeconds": "173",
+    "uploadDate": "2019-07-11",
+    "thumbnail_url": "https://i.ytimg.com/vi/aCnkIUMxXAk/maxresdefault.jpg"
+  },
+  {
+    "link": "watch?v=t0g74CfZ0Yg",
+    "title": "reverse engineering zen koi 2 (mitmproxy, python) (automation in server sided ios game)",
+    "tags": "reverse engineering, zen koi 2, mitm, mitmproxy, python, landshark, zenkoi, ios",
+    "scraped_at": 1685095052.2414334,
+    "genre": "Education",
+    "views": "1943",
+    "desc": "several people asked me about reverse engineering server sided games, here is a small demo;\\\\n\\\\nthis video shows multiple in-game automations: \\\\n-- fish feeding (2:15)\\\\n-- leveling up and ascending dragons (2:40)\\\\n-- in-game currency hack (3:28)\\\\n-- buying all rare fish (4:10)\\\\n\\\\nsources here: https://github.com/asarandi/zenkoi2\\\\n\\\\nif you decide to run the scripts, make sure to change the \\\\\"",
+    "lengthSeconds": "306",
+    "uploadDate": "2019-07-06",
+    "thumbnail_url": "https://i.ytimg.com/vi/t0g74CfZ0Yg/maxresdefault.jpg"
+  },
+  {
+    "link": "watch?v=Xe7whf6RNNc",
+    "title": "reverse engineering temple run 2 on ios using il2cppdumper, ida, lldb",
+    "tags": "#templerun2 #il2cppdumper #ida #lldb #reverseengineering #ios",
+    "scraped_at": 1685095052.3654578,
+    "genre": "People",
+    "views": "7129",
+    "desc": "ecole 42 fremont, oct 2018\"",
+    "lengthSeconds": "338",
+    "uploadDate": "2018-10-26",
+    "thumbnail_url": "https://i.ytimg.com/vi/Xe7whf6RNNc/maxresdefault.jpg"
+  }
+]
