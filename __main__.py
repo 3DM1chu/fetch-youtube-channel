@@ -119,7 +119,7 @@ class ChannelVideosScraper:
             video_list_to_save_to_file.append(video_obj)
         videos_arr = await self.check_async_video(video_list_to_save_to_file)
 
-        f = open(f"channels/@{self.scraper.YOUTUBE_CHANNEL_TAG}.txt", "w")
+        f = open(f"channels/@{self.scraper.YOUTUBE_CHANNEL_TAG}.json", "w")
         f.write(json.dumps(videos_arr, indent=2, default=str))
         f.close()
 
